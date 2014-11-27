@@ -32,4 +32,10 @@ echo "exporting PATH and LIBRARY_PATH" | indent
 PROFILE_PATH="$BUILD_DIR/.profile.d/youtube-dl"
 mkdir -p $(dirname $PROFILE_PATH)
 echo 'export PATH="$PATH:$HOME/vendor/yt-dl"' >> $PROFILE_PATH
+
+cat <<EOF
+---
+config_vars:
+PATH: $PATH:/app/vendor/yt-dl
+EOF
 #echo 'export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:$HOME/vendor/ffmpeg/lib"' >> $PROFILE_PATH
