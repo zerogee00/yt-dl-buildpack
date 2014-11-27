@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-echo "----- Installing Youtube-dl"
+echo "-----> Installing Youtube-dl"
 # change to the the BUILD_DIR ($1)
 cd $1
 # download the binary (-O) silently (-nv)
