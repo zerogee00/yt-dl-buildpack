@@ -24,7 +24,8 @@ echo "DOWNLOAD_URL = " $DOWNLOAD_URL | indent
 cd $BUILD_DIR
 mkdir -p $VENDOR_DIR
 cd $VENDOR_DIR
-curl -L --silent $DOWNLOAD_URL 
+curl -L --silent $DOWNLOAD_URL -O youtube-dl
+chmod a+x youtube-dl
 #| tar xz
 
 echo "exporting PATH and LIBRARY_PATH" | indent
