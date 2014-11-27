@@ -4,7 +4,7 @@ echo "-----> Installing Youtube-dl"
 #cd $1
 # download the binary 
 mkdir -p vendor/yt-dl
-cd vendor/youtube-dl
+cd vendor/yt-dl
 wget https://yt-dl.org/downloads/2014.11.26.4/youtube-dl -nv -O youtube-dl
 chmod a+x youtube-dl
 # curl https://yt-dl.org/downloads/2014.11.26.4/youtube-dl -s -O /app/vendor/yt-dl/youtube-dl
