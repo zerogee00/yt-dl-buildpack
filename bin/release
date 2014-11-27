@@ -2,5 +2,5 @@
 cat &lt;&lt;EOF
 ---
 config_vars:
-PATH: $PATH:/app/vendor/yt-dl/bin
+PATH: $PATH:/app/vendor/yt-dl
 EOF

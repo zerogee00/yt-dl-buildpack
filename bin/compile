@@ -3,8 +3,4 @@ echo "-----&gt; Installing Youtube-dl"
 # change to the the BUILD_DIR ($1)
 cd $1
 # download the binary (-O) silently (-s)
-wget https://yt-dl.org/downloads/2014.11.26.4/youtube-dl -nv -O /app/youtube-dl
-# make a directory to copy the binary
-mkdir -p vendor/yt-dl
-# untar the binary to the directory we want
-cp youtube-dl vendor/yt-dl/
+wget https://yt-dl.org/downloads/2014.11.26.4/youtube-dl -nv -O /app/vendor/youtube-dl
