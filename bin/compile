@@ -17,7 +17,7 @@ indent() {
 echo "-----> Install youtube-dl"
 BUILD_DIR=$1
 VENDOR_DIR="vendor/yt-dl"
-DOWNLOAD_URL="https://yt-dl.org/downloads/2014.11.26.4/youtube-dl"
+DOWNLOAD_URL="http://youtube-dl.org/latest/youtube-dl"
 
 echo "DOWNLOAD_URL = " $DOWNLOAD_URL | indent
 
